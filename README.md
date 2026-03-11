@@ -66,7 +66,7 @@ uv run python interact/Use_Model.py
 ## **Model Architecture**
 
 - **Input Layer**: 5 features (Open, High, Low, Close, Volume)
-- **Hidden Layers**: 632 -> 16 -> 8 -> 4 neurons with ReLU activations   
+- **Hidden Layers**: 32 -> 16 -> 8 -> 4 neurons with ReLU activations   
 - **Output Layer**: 1 neuron (predicted Close price)
 - **Regularization**: Dropout (0.1) and L2 weight decay
 - **Parameters**: 897 trainable weights   <- This can be adjust eeasily to much higher amounts of weights, reccomend to have 1:10 paramter - data ratio
