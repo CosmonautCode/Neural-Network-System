@@ -6,7 +6,7 @@ import torch.nn as nn
 class NN_Regression(nn.Module):
     """Improved Neural Network for stock price prediction"""
     
-    def __init__(self, input_size=5, hidden_sizes=[64, 32, 16, 8, 4], output_size=1):
+    def __init__(self, input_size=5, hidden_sizes=[32, 16, 8, 4], output_size=1):
         super(NN_Regression, self).__init__()
         
         # Build layers dynamically
