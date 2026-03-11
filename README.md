@@ -49,6 +49,8 @@ uv sync
 ```
 
 ### 2. Train the Model
+I recommend deleting the files in model/ as these are from previous training
+
 ```bash
 uv run python -m main
 ```
